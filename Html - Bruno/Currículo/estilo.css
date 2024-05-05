@@ -1,0 +1,23 @@
+* {margin:12;padding:12}
+
+.clear {clear:both;}
+
+#left-sidebar {width: 100%;}
+#content {width: 100%;margin:0 0%;}
+#SS {width: 20%;}
+#HS {width: 40%;}
+
+
+/*CSS para monitores com menos de 900px de largura*/
+@media screen and (max-widht: 900px){
+    #wrap {width: 100%;}
+    #left-sidebar,#content,#right-sidebar{
+        width: 100%;float: none;margin: 0;
+    }
+
+}
+
+/*CSS para monitores com menos de 900px de largura */
+@media screen and (max-width: 400px) {
+    #left-sidebar {display: none;}
+}
